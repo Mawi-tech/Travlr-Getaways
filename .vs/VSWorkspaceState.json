@@ -12,6 +12,6 @@
     "\\public",
     "\\public\\css"
   ],
-  "SelectedNode": "\\data\\trips.json",
+  "SelectedNode": "\\app_server\\models\\seed.js",
   "PreviewInSolutionExplorer": false
 }

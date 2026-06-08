@@ -1,17 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.claude",
+    "\\.claude\\worktrees",
+    "\\app_api",
+    "\\app_api\\models",
+    "\\app_api\\routes",
     "\\app_server",
-    "\\app_server\\models",
     "\\app_server\\views",
-    "\\app_server\\views\\partials",
-    "\\bin",
-    "\\css",
-    "\\data",
-    "\\images",
-    "\\public",
-    "\\public\\css"
+    "\\app_server\\views\\layouts",
+    "\\bin"
   ],
-  "SelectedNode": "\\app_server\\models\\seed.js",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

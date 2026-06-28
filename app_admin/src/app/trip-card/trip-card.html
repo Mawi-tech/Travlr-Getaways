@@ -20,6 +20,8 @@
       ${{ trip.perPerson }} per person
     </p>
 
+    <div *ngIf="isLoggedIn()">
+
     <p class="card-text" [innerHTML]="trip.description"></p>
     <button (click)="editTrip(trip)" class="btn btn-primary">Edit</button>
   </div>

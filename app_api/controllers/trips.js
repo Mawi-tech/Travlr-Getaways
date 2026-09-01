@@ -98,9 +98,27 @@ const tripsUpdateTrip = async (req, res) => {
     // console.log(q);
 };
 
+// DELETE: /trips/:tripCode - Deletes a Trip
+const tripsDeleteTrip = async (req, res) => {
+    const q = await Model
+        .findOneAndDelete({ 'code': req.params.tripCode })
+        .exec();
+
+    if (!q) {
+        return res
+            .status(404)
+            .json(err);
+    } else {
+        return res
+            .status(204)
+            .json(q);
+    }
+};
+
 module.exports = {
     tripsList,
     tripsFindByCode,
     tripsAddTrip,
-    tripsUpdateTrip
+    tripsUpdateTrip,
+    tripsDeleteTrip
 };

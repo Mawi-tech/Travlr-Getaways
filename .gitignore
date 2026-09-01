@@ -67,3 +67,10 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+# Visual Studio
+.vs/
+
+# Local agent working files
+.claude/
+claude-worktrees/
